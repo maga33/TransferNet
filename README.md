@@ -11,6 +11,10 @@ This is the implementation of our CVPR 2016 paper entitled as "Learning Transfer
 
 Pleae refer to our paper for more details [arXiv tech report](http://arxiv.org/abs/1512.07928)
 
+### Training
+
+### Inference
+
 ### Citation
 
 If you're using this code in a publication, please cite our papers.
