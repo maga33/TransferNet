@@ -1,0 +1,11 @@
+net: "decoder.prototxt"
+encoder_net: "encoder.prototxt"
+encoder_device_id: 2
+test_iter: 100
+test_interval: 500
+base_lr: 0.01
+momentum: 0.9
+lr_policy: "fixed"
+display: 100
+max_iter: 10000
+solver_mode: GPU

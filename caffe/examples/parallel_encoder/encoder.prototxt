@@ -1,0 +1,47 @@
+name: "Encoder"
+layer {
+  name: "data"
+  type: "DummyData"
+  top: "data"
+  dummy_data_param {
+    data_filler {
+      type: "xavier"
+    }
+    shape {
+      dim: 64
+      dim: 3
+      dim: 128
+      dim: 128
+    }
+  }
+}
+layer {
+  name: "label"
+  type: "DummyData"
+  top: "label"
+  dummy_data_param {
+    data_filler {
+      type: "constant"
+      value: 2.0
+    }
+    shape {
+      dim: 64
+      dim: 1
+    }
+  }
+}
+layer {
+  name: "ip"
+  type: "InnerProduct"
+  bottom: "data"
+  top: "ip"
+  inner_product_param {
+    num_output: 20
+    weight_filler {
+      type: "xavier"
+    }
+    bias_filler {
+      type: "constant"
+    }
+  }
+}
