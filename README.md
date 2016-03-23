@@ -23,9 +23,10 @@ This repository contains the source code for the semantic segmentation algorithm
 Pleae refer to our [arXiv tech report](http://arxiv.org/abs/1512.07928) for details. 
 
 ## Installation
+
 You need to compile the modified Caffe library in this repository.
-Please consult following [Caffe installation guide](http://caffe.berkeleyvision.org/installation.html). 
-After installing rquired libraries for Caffe, you should compile both Caffe and its matlab interface as follows 
+Please consult following [Caffe installation guide](http://caffe.berkeleyvision.org/installation.html) for details. 
+After installing rquired libraries for Caffe, you need to compile both Caffe and its Matlab interface as follows: 
 
 ```
 cd caffe
@@ -33,11 +34,38 @@ make all
 make matcaffe
 ```
 
+After installing Caffe, you can download datasets, pre-trained models, and other libraries by following script:
+
+```
+setup.sh
+```
+
+
 ## Training
 
+You can train our model with following steps.
+
+First, pre-train attention network with classification objective.
+
+```
+cd training
+./1_train_attention.sh
+```
+
+Then, train entire network for segmentation using examples in both source (MS-COCO) and target (PASCAL-VOC) domains.
+
+```
+./2_train_segmentation.sh
+```
 
 ## Inference
 
+You can run inference of trained model on PASCAL VOC 2012 validatoin images as follow
+
+```
+cd inference
+matlab -nodesktop -r run_inference
+```
 
 ### Licence
 
