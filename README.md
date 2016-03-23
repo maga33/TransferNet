@@ -3,7 +3,7 @@
 Created by [Seunghoon Hong](http://cvlab.postech.ac.kr/~maga33/), [Junhyuk Oh](https://sites.google.com/a/umich.edu/junhyuk-oh/), [Bohyung Han](http://cvlab.postech.ac.kr/~bhhan/) and [Honglak Lee](http://web.eecs.umich.edu/~honglak/)
 
 
-Project page: [http://cvlab.postech.ac.kr/research/dppnet/]
+Project page: [http://cvlab.postech.ac.kr/research/transfernet/]
 
 ## Introduction
 
@@ -52,7 +52,7 @@ cd training
 ./1_train_attention.sh
 ```
 
-Then, train entire network for segmentation using examples in both source (MS-COCO) and target (PASCAL-VOC) domains.
+Then, train entire network for segmentation with following script.
 
 ```
 ./2_train_segmentation.sh
@@ -60,7 +60,7 @@ Then, train entire network for segmentation using examples in both source (MS-CO
 
 ## Inference
 
-You can run inference of trained model on PASCAL VOC 2012 validatoin images as follow
+You can run inference using the trained model on PASCAL VOC 2012 validatoin images as follow:
 
 ```
 cd inference
