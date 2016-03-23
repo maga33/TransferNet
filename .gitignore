@@ -1,0 +1,30 @@
+# data for training
+data/MSCOCO/
+data/VOC2012_SEG_AUG/
+data/imagesets/
+data/imagesets.tar.gz
+data/VOC2012_SEG_AUG.tar.gz
+data/MSCOCO.tar.gz
+
+# models
+models/attentionNet.caffemodel
+models/classificationNet.caffemodel
+models/classificationNet.prototxt
+models/pretrainedCNN.caffemodel
+models/transferNet.caffemodel
+
+# inference
+inference/results/
+inference/ext/
+
+# training
+training/1_train_attention/snapshot
+training/1_train_attention/training_log
+training/1_train_attention/data
+training/1_train_attention/caffe
+training/1_train_attention/pretrainedCNN.caffemodel
+training/2_train_segmentation/snapshot
+training/2_train_segmentation/training_log
+training/2_train_segmentation/data
+training/2_train_segmentation/caffe
+training/2_train_segmentation/attentionNet.caffemodel

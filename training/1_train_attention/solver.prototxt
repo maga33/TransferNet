@@ -1,0 +1,19 @@
+net: "./attention.prototxt"
+device_id: 0
+base_lr: 0.001
+lr_policy: "fixed"
+solver_type: ADAM
+iter_size: 8
+display: 1
+max_iter: 15000
+momentum: 0.9
+momentum2: 0.999
+
+test_interval: 500
+test_state { stage: "test-on-train" }
+test_iter: 1500
+test_state { stage: "test-on-val" }
+test_iter: 500
+snapshot: 1000
+snapshot_prefix: "./snapshot/1_attention"
+solver_mode: GPU

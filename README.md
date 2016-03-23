@@ -31,3 +31,10 @@ If you're using this code in a publication, please cite our papers.
 This software is for research purpose only.
 Check LICENSE file for details.
 
+### TODOs
+
+
+1. add script for download pre-trained models (v)
+2. add script for move trained model to ./models directory
+3. add script that prepare entire environment (v)
+3. add inference code (v)

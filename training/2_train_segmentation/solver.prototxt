@@ -1,0 +1,15 @@
+net: "./attention-decoder.prototxt"
+device_id: 0
+base_lr: 0.0005
+lr_policy: "fixed"
+solver_type: ADAM
+iter_size: 16
+display: 1
+max_iter: 15000
+momentum: 0.9
+momentum2: 0.999
+test_interval: 500
+test_iter: 500
+snapshot: 500
+snapshot_prefix: "./snapshot/2_segmentation"
+solver_mode: GPU
