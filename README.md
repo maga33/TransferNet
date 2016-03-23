@@ -25,7 +25,7 @@ Pleae refer to our [arXiv tech report](http://arxiv.org/abs/1512.07928) for deta
 ## Installation
 
 You need to compile the modified Caffe library in this repository.
-Please consult following [Caffe installation guide](http://caffe.berkeleyvision.org/installation.html) for details. 
+Please consult [Caffe installation guide](http://caffe.berkeleyvision.org/installation.html) for details. 
 After installing rquired libraries for Caffe, you need to compile both Caffe and its Matlab interface as follows: 
 
 ```
