@@ -15,7 +15,7 @@ models/transferNet.caffemodel
 
 # inference
 inference/results/
-inference/ext/
+inference/ext/densecrf/
 
 # training
 training/1_train_attention/snapshot
