@@ -43,24 +43,22 @@ setup.sh
 
 ## Training
 
-You can train our model with following steps.
+Training procedures are composed of two steps, which are implemented in different directories.
+    * `training/1_train_attention` : Train attention and classification network with image-level class labels.
+    * `training/2_train_segmentation` : Given a initialized attention network, train entire network for segmentation with segmentation annotations. 
 
-First, pre-train attention network with classification objective.
+You can run training with following scripts
 
 ```
 cd training
 ./1_train_attention.sh
-```
-
-Then, train entire network for segmentation with following script.
-
-```
 ./2_train_segmentation.sh
 ```
 
+
 ## Inference
 
-You can run inference using the trained model on PASCAL VOC 2012 validatoin images as follow:
+You can run inference on PASCAL VOC 2012 validatoin images using the trained model as follow:
 
 ```
 cd inference
