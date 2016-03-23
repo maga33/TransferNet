@@ -44,9 +44,8 @@ setup.sh
 ## Training
 
 Training procedures are composed of two steps, which are implemented in different directories:
-
-    * `training/1_train_attention` : pre-train attention and classification network with image-level class labels.
-    * `training/2_train_segmentation` : train entire network including a decoder with pixel-wise class labels. 
+  * `training/1_train_attention` : pre-train attention and classification network with image-level class labels.
+  * `training/2_train_segmentation` : train entire network including a decoder with pixel-wise class labels. 
 
 You can run training with following scripts
 
