@@ -1,4 +1,5 @@
-Copyright Pohang University of Science and Technology. All rights reserved.
+Copyright Pohang University of Science and Technology, and University of Michigan. 
+All rights reserved.
 
 Contact persons:
 Seunghoon Hong (maga33@postech.ac.kr)
@@ -41,15 +42,15 @@ legally required, to do the following:
   software system, you are requested to cite the use in any related
   publications or technical documentation. The work is based upon:
  
-    Seunghoon Hong, Hyeonwoo Noh, Bohyung Han.
-    Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation 
-    arXiv:1505.04366, 2015.
+    Seunghoon Hong, Junhyuk Oh, Bohyung Han, Honglak Lee.
+    Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network, 
+    In CVPR, 2016.
 
-    @article{hong2015decoupled,
-      title={Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation},
-      author={Hong, Seunghoon and Noh, Hyeonwoo and Han, Bohyung},
-      journal={arXiv preprint arXiv:1506.04924},
-      year={2015}
+    @inproceedings{HongOHL2016,
+      title={Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network},
+      author={Hong, Seunghoon and Oh, Junhyuk and Han, Bohyung and Lee, Honglak},
+      booktitle={Computer Vision and Pattern Recognition (CVPR), 2016 IEEE Conference on},
+      year={2016}
     }
  
 This copyright notice must be retained with all copies of the software,
