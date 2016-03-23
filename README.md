@@ -6,7 +6,9 @@ Project page: [http://cvlab.postech.ac.kr/research/dppnet/]
 
 ### Introduction
 
-This repository contains the source code for the semantic segmentation algorithm described in our CVPR 2016 paper: Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network.
+This repository contains the source code for the semantic segmentation algorithm described in the following paper:   
+* Seunghoon Hong, Junhyuk Oh, Bohyung Han, Honglak Lee, **"Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network**"
+    _In Conference on Computer Vision and Pattern Recognition (CVPR)_, 2016.
 
     @inproceedings{HongOHL2016,
       title={Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network},
@@ -17,14 +19,13 @@ This repository contains the source code for the semantic segmentation algorithm
     
 Pleae refer to our [arXiv tech report](http://arxiv.org/abs/1512.07928) for details 
 
+### Installation
+
+
 ### Training
 
+
 ### Inference
-
-### Citation
-
-If you're using this code in a publication, please cite our papers.
-
 
 
 ### Licence
@@ -32,10 +33,3 @@ If you're using this code in a publication, please cite our papers.
 This software is for research purpose only.
 Check LICENSE file for details.
 
-### TODOs
-
-
-1. add script for download pre-trained models (v)
-2. add script for move trained model to ./models directory
-3. add script that prepare entire environment (v)
-3. add inference code (v)
