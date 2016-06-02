@@ -14,7 +14,7 @@ This repository contains the source code for the semantic segmentation algorithm
 ```
 @inproceedings{HongOHL2016,
   title={Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network},
-  author={Hong, Seunghoon and Oh, Junhyuk and Han, Bohyung and Lee, Honglak},
+  author={Hong, Seunghoon and Oh, Junhyuk and Lee, Honglak and Han, Bohyung},
   booktitle={Computer Vision and Pattern Recognition (CVPR), 2016 IEEE Conference on},
   year={2016}
 }
