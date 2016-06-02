@@ -1,4 +1,10 @@
-function run_inference()
+function run_inference(model_name, model_data, model_proto)
+
+  if nargin < 1 then 
+    model_name = 'TransferNet_demo';
+    model_data = '../models/transferNet.caffemodel';
+    model_proto = '../training/2_train_segmentation/deploy.prototxt';
+  end
   clear all; close all; clc;
   addpath(genpath('./ext'));
   addpath(genpath('./util'));
@@ -12,9 +18,9 @@ function run_inference()
   config.gpuNum = 0;
   config.cmap = './util/voc_gt_cmap.mat';
   config.write_file = 1;
-  config.model_name = 'TransferNet_demo';
-  config.Path.CNN.model_data = '../models/transferNet.caffemodel';
-  config.Path.CNN.model_proto = '../training/2_train_segmentation/deploy.prototxt';
+  config.model_name = model_name
+  config.Path.CNN.model_data = model_data
+  config.Path.CNN.model_proto = model_proto
   config.batch_size = 1;
   config.im_sz = 320;
 
