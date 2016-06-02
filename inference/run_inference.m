@@ -5,6 +5,7 @@ function run_inference(model_name, model_data, model_proto)
     model_data = '../models/transferNet.caffemodel';
     model_proto = '../training/2_train_segmentation/deploy.prototxt';
   end
+  
   clear all; close all; clc;
   addpath(genpath('./ext'));
   addpath(genpath('./util'));
