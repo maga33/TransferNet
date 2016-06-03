@@ -1,6 +1,6 @@
 function run_inference(model_name, model_data, model_proto)
-
-  if nargin < 1 then 
+  clear all; close all; clc;
+  if nargin < 1 
     model_name = 'TransferNet_demo';
     model_data = '../models/transferNet.caffemodel';
     model_proto = '../training/2_train_segmentation/deploy.prototxt';
@@ -8,7 +8,6 @@ function run_inference(model_name, model_data, model_proto)
   assert(exist(model_data)~=0, sprintf('there is no model data in %s', model_data));
   assert(exist(model_proto)~=0, sprintf('there is no model definition file in %s', model_proto));
   
-  clear all; close all; clc;
   addpath(genpath('./ext'));
   addpath(genpath('./util'));
 
