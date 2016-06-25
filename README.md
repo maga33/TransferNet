@@ -1,6 +1,6 @@
 ## TransferNet: Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network
 
-Created by [Seunghoon Hong](http://cvlab.postech.ac.kr/~maga33/), [Junhyuk Oh](https://sites.google.com/a/umich.edu/junhyuk-oh/), [Bohyung Han](http://cvlab.postech.ac.kr/~bhhan/) and [Honglak Lee](http://web.eecs.umich.edu/~honglak/)
+Created by [Seunghoon Hong](http://cvlab.postech.ac.kr/~maga33/), [Junhyuk Oh](https://sites.google.com/a/umich.edu/junhyuk-oh/), [Honglak Lee](http://web.eecs.umich.edu/~honglak/) and [Bohyung Han](http://cvlab.postech.ac.kr/~bhhan/)
 
 
 Project page: [http://cvlab.postech.ac.kr/research/transfernet/]
@@ -8,7 +8,7 @@ Project page: [http://cvlab.postech.ac.kr/research/transfernet/]
 ## Introduction
 
 This repository contains the source code for the semantic segmentation algorithm described in the following paper:   
-* Seunghoon Hong, Junhyuk Oh, Bohyung Han, Honglak Lee, **"Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network**"
+* Seunghoon Hong, Junhyuk Oh, Honglak Lee, Bohyung Han, **"Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network**"
     _In IEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2016.
 
 ```
