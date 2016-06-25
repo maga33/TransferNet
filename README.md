@@ -65,6 +65,9 @@ cd inference
 matlab -nodesktop -r run_inference
 ```
 
+By default, this script will perform an inference on PASCAL VOC 2012 validation images using the pre-trained model.
+You may need to modify the code if you want to apply the model to different dataset or use the different models. 
+
 ### Licence
 
 This software is for research purpose only.
